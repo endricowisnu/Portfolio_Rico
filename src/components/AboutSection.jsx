@@ -30,7 +30,7 @@ export const AboutSection = () => {
                             </a>
 
                             <a 
-                                href="/CV/Rico-CV.pdf" 
+                                href="public/CV/Rico-CV.pdf" 
                                 download="Endrico Wisnu Wardhana_Resume.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
