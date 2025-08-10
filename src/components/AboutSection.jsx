@@ -24,12 +24,17 @@ export const AboutSection = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center ">
-                            <a href="#contact" className="cosmic-button bg-primary">
+                            <a href="#contact" className="cosmic-button bg-primary/20">
                                 {" "}
                                 Get In Touch
                             </a>
 
-                            <a href="" className="px-6 py-2 rounded-full border border-primary hover:bg-primary transition-colors duration-300 ">
+                            <a 
+                                href="/CV/Rico-CV.pdf" 
+                                download="Endrico Wisnu Wardhana_Resume.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-6 py-2 rounded-full border border-primary hover:bg-primary transition-colors duration-300 ">
                                 {" "}
                                 Download CV
                             </a>
